@@ -1,0 +1,6 @@
+{
+  "name": "Clínica Dr. Fábio Pizzini",
+  "description": "Clínica Médica de Emagrecimento, Nutrologia e Treinamento Físico de Sorocaba e Região, liderada pelo Dr. Fábio Pizzini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

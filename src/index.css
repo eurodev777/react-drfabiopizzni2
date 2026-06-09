@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-brand: #6CDC04;
+}
+
+/* Base custom styles to ensure rich contrasts and sport aesthetics */
+html {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Custom glow effects for the sports medical identity */
+.lime-glow {
+  box-shadow: 0 0 20px rgba(108, 220, 4, 0.15);
+}
+
+.lime-glow-strong {
+  box-shadow: 0 0 30px rgba(108, 220, 4, 0.4);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #ffffff 50%, #a1a1aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lime-text-gradient {
+  background: linear-gradient(135deg, #6CDC04 0%, #b8ff6b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
