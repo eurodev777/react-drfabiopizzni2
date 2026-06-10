@@ -1630,12 +1630,7 @@ export default function App() {
           {/* Column 1: Clinic Summary Address details */}
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded bg-zinc-900 border border-brand flex items-center justify-center font-bold text-sm text-brand">
-                FP
-              </div>
-              <span className="font-extrabold text-white text-md tracking-tight uppercase font-display">
-                Clínica Pizzini
-              </span>
+              <img src={logo} width={180} />
             </div>
 
             <p className="text-xs sm:text-sm text-zinc-450 leading-relaxed font-sans">
