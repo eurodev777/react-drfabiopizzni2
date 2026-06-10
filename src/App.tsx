@@ -32,10 +32,9 @@ import foto from "./assets/foto.webp";
 import video from "./assets/vlc.mp4";
 
 // Paths of the pre-generated images
-const IMAGE_DR_FABIO = "/src/assets/images/dr_fabio_1781030015152.png";
-const IMAGE_ATHLETE =
-  "/src/assets/images/athlete_performance_1781030034584.png";
-const IMAGE_CLINIC = "/src/assets/images/clinical_assessment_1781030051671.png";
+import IMAGE_DR_FABIO from "./assets/images/dr_fabio_1781030015152.png";
+import IMAGE_ATHLETE from "./assets/images/athlete_performance_1781030034584.png";
+import IMAGE_CLINIC from "./assets/images/clinical_assessment_1781030051671.png";
 
 // Interfaces and Constants
 interface Review {
