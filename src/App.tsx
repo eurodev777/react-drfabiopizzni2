@@ -49,94 +49,104 @@ interface Review {
 
 const REVIEWS_DATA: Review[] = [
   {
-    name: "Bruno Marques",
-    date: "17 de Janeiro de 2024",
-    text: "Experiência e atendimento impecáveis. Fomos eu e minha esposa e já fomos examinados e saímos com tratamento dietético, medicamentoso e de treinamento físico. Superou nossas expectativas. Parabéns ao Dr. Fabio Pizzini e Dr. Fabio Gianolla.",
+    name: "Henrique Aust",
+    date: "3 meses atrás",
+    text: "O Dr. Fábio é um excelente profissional! O acompanhamento dele mudou a minha qualidade de vida para um patamar muito superior.",
     rating: 5,
-    tags: ["Tratamento Casado", "Treinamento"],
-    initials: "BM",
+    tags: ["Qualidade de Vida", "Acompanhamento"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjWk4_X7c8m6tPyuqOkjwV-iESNw2fMc8r4JTRL5toT3Ko9_Q70=w72-h72-p-rp-mo-br100",
     avatarColor: "bg-emerald-600",
   },
   {
-    name: "Moisés Sales",
-    date: "12 de Setembro de 2023",
-    text: "TOP, completamente satisfeito !! Prof. Fábio Gianolla explicou todos os pontos de uma dieta para meus objetivos sem nada de 'MIMIMI' montando uma dieta com alimentos que consumo no meu dia a dia, e Dr. Fábio Pizzini direto ao ponto tb, tirando todas as minhas dúvidas quanto a minha saúde, para ter uma qualidade de vida cada dia melhor... Clínica Pizzini 5 estrelas !!",
+    name: "Peterson Heleno",
+    date: "3 meses atrás",
+    text: "Excelente profissional!!! Desde a recepção ao atendimento nota 10, humanizado, profissionalismo, muito obrigado!!!!",
     rating: 5,
-    tags: ["Emagrecimento", "Dieta Prática"],
-    initials: "MS",
-    avatarColor: "bg-lime-600",
-  },
-  {
-    name: "Ivana Guite",
-    date: "23 de Julho de 2023",
-    text: "Desde a recepção na clínica, até a consulta com o Dr. Fábio, o atendimento e acolhimento são maravilhosos! Só tenho a agradecer a todos da clínica e indicar o serviço desses profissionais.",
-    rating: 5,
-    tags: ["Acolhimento", "Recepção"],
-    initials: "IG",
-    avatarColor: "bg-zinc-700",
-  },
-  {
-    name: "Padre Márcio Almeida",
-    date: "23 de Dezembro de 2023",
-    text: "Sempre recomendo a consulta casada com o nutrólogo Dr. Fábio Pizzini e nutricionista Fábio Gianolla. São dois excelentes profissionais...",
-    rating: 5,
-    tags: ["Consulta Casada", "Recomendado"],
-    initials: "PM",
+    tags: ["Atendimento Humanizado", "Profissionalismo"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjUD7iCQA2JDA2ssp1VG4uaHUfy_G82fJwvD8TTeebJol4X0dIo=s64-c-rp-mo-ba12-br100",
     avatarColor: "bg-blue-600",
   },
   {
-    name: "Claudio Gomes",
-    date: "14 de Novembro de 2023",
-    text: "Ótimos profissionais! Atendente super solícita e simpática. Os profissionais escutam atentamente o paciente e demonstram real interesse em ajudar.",
+    name: "Gustavo Nunes",
+    date: "3 meses atrás",
+    text: "Excelente profissional, e atendimento excelente.",
     rating: 5,
-    tags: ["Atendimento", "Atenção"],
-    initials: "CG",
-    avatarColor: "bg-teal-600",
-  },
-  {
-    name: "Danielle Borges Strumiello",
-    date: "31 de Março de 2023",
-    text: "Aconchegante, elegante. Mto bem atendida na recepção pela Jô no consultório com Dr. Pizzini, todo cuidado, carinho e profissionalismo. Grata.",
-    rating: 5,
-    tags: ["Elegante", "Profissionalismo"],
-    initials: "DB",
-    avatarColor: "bg-yellow-600",
-  },
-  {
-    name: "Melissa Camargo",
-    date: "23. Dezembro, 2023.",
-    text: "Sensacional! Top demais. Dr Fábio é o melhor profissional. Recomendo.",
-    rating: 5,
-    tags: ["Melhor do Segmento"],
-    initials: "MC",
-    avatarColor: "bg-pink-600",
-  },
-  {
-    name: "Abner Munhoz",
-    date: "16. Janeiro, 2024.",
-    text: "Excelentemente bem atendido",
-    rating: 5,
-    tags: ["Atendimento"],
-    initials: "AM",
-    avatarColor: "bg-indigo-600",
-  },
-  {
-    name: "Gustavo Pedroso",
-    date: "9. Agosto, 2023.",
-    text: "Atendimento espetacular, ótimos profissionais vale muito a pena, recomendo.",
-    rating: 5,
-    tags: ["Excelente"],
-    initials: "GP",
+    tags: ["Atendimento", "Excelência"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjWfAA_Eo-MEA1Q_59JRq8raRs1FR_9VfPqI0LW9qfgy4-BTCxpy=s64-c-rp-mo-br100",
     avatarColor: "bg-purple-600",
   },
   {
-    name: "Decio Jr",
-    date: "9. Maio, 2023.",
-    text: "Excelentes profissionais, atendem no horário agendado.",
+    name: "Syloé Silveira Ribeiro Junior",
+    date: "3 meses atrás",
+    text: "Profissionalismo.... atendimento impecável.",
     rating: 5,
-    tags: ["Pontualidade"],
-    initials: "DJ",
+    tags: ["Profissionalismo", "Atendimento"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjXSTUyU1KiswSIyiAWbrb7jt3y16PKhN7FwPlaBugZgGnGBa9GpSA=s64-c-rp-mo-br100",
+    avatarColor: "bg-indigo-600",
+  },
+  {
+    name: "Rose Achnitz",
+    date: "3 meses atrás",
+    text: "Educado, atencioso, gostei muito do Dr. Fábio!",
+    rating: 5,
+    tags: ["Atencioso", "Consulta"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjXN--VgqLCHTirZKJSVMe317qOgLcwM45p3n-PEZjV4FsLACA69=s64-c-rp-mo-ba12-br100",
+    avatarColor: "bg-pink-600",
+  },
+  {
+    name: "Micael Gonsalves",
+    date: "3 meses atrás",
+    text: "Atendimento da secretaria excepcional, Doutor Fábio um monstro no conhecimento e no atendimento, excelentes profissionais, ótimo consultório. Recomendo a todos!",
+    rating: 5,
+    tags: ["Conhecimento", "Secretaria", "Consultório"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjWEw6417qz_y7QKVUKexvSwzBiKqgAaXkBap7yS_O4IXzU8Pvcm=s64-c-rp-mo-br100",
+    avatarColor: "bg-teal-600",
+  },
+  {
+    name: "Marisa Alarcon",
+    date: "3 meses atrás",
+    text: "Ótimo atendimento, e com resultados positivos!!",
+    rating: 5,
+    tags: ["Resultados", "Atendimento"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjUk_86vnRcGujYTNtOuC8VoZLd1q6GHiPpGVepKNkj-1UhSTgip=s64-c-rp-mo-ba12-br100",
+    avatarColor: "bg-yellow-600",
+  },
+  {
+    name: "Cibelli Rodrigues",
+    date: "4 meses atrás",
+    text: "Dr. Fábio foi bastante atencioso durante a consulta, demonstrando real interesse e entendimento com os meus objetivos e dificuldades. O ambiente do consultório é bem agradável e de boa localização.",
+    rating: 5,
+    tags: ["Consulta", "Atencioso", "Consultório"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjVlW_IYd3xRN2JwHgvjUWcpTDy26RBb7XNp-Yq1t1LmVXN2dUiW2g=s64-c-rp-mo-br100",
+    avatarColor: "bg-rose-600",
+  },
+  {
+    name: "Wellington Cavalcante",
+    date: "4 meses atrás",
+    text: "Excelente profissional, muito gente boa, atencioso e uma ótima experiência, desde a recepção até o momento da consulta. Recomendo demais.",
+    rating: 5,
+    tags: ["Experiência", "Recepção", "Consulta"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjWhaBESUUqujGNEYvdxT_GXgl45C2nFWPF2zHXOXCTgo1rLqtJb=s64-c-rp-mo-br100",
     avatarColor: "bg-amber-600",
+  },
+  {
+    name: "Janaina Nunes",
+    date: "4 meses atrás",
+    text: "Dr. Fábio e equipe são maravilhosos. Vale muito a pena fazer uma consulta, ajustou tudo conforme a necessidade.",
+    rating: 5,
+    tags: ["Equipe", "Consulta", "Resultados"],
+    initials:
+      "https://lh3.googleusercontent.com/a-/ALV-UjWqAQZcdZ7m0yC7-orRv2OnV8aJRFqHFlW6EjPTuA5P4RMWl-Gs1A=s64-c-rp-mo-br100",
+    avatarColor: "bg-lime-600",
   },
 ];
 
@@ -144,6 +154,7 @@ export default function App() {
   const [activeReviewIndex, setActiveReviewIndex] = useState(0);
   const [selectedReviewTag, setSelectedReviewTag] = useState<string>("Todos");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const reviewsNumber = 205;
 
   // States for Hydration & Sports Bioimpedance Calculator
   const [calcWeight, setCalcWeight] = useState<number>(75);
@@ -492,7 +503,7 @@ export default function App() {
                 <div className="h-8 w-px bg-zinc-900"></div>
                 <div className="text-left">
                   <p className="text-lg font-black text-white font-display leading-tight">
-                    153+
+                    {reviewsNumber}+
                   </p>
                   <p className="text-[10.5px] text-zinc-400 font-sans">
                     Avaliações reais de pacientes ativos
@@ -1425,7 +1436,7 @@ export default function App() {
                 DEPOIMENTOS REAIS
               </span>
               <h2 className="text-3xl sm:text-4.5xl font-black text-white uppercase tracking-tight font-display">
-                Excelente - 153 avaliações Google
+                Excelente - {reviewsNumber} avaliações Google
               </h2>
               <p className="text-zinc-450 text-sm max-w-2xl font-sans">
                 Confira o feedback sincero de quem passou pela Clínica de
@@ -1435,7 +1446,7 @@ export default function App() {
             </div>
 
             {/* Selector filter buttons for Testimonial categories */}
-            <div className="flex flex-wrap gap-2 text-xs font-mono">
+            {/* <div className="flex flex-wrap gap-2 text-xs font-mono">
               {allTags.slice(0, 5).map((tag) => (
                 <button
                   key={tag}
@@ -1452,7 +1463,7 @@ export default function App() {
                   {tag}
                 </button>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Testimonial Core Highlight Card */}
@@ -1487,7 +1498,9 @@ export default function App() {
                     <div
                       className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold font-display ${filteredReviews[activeReviewIndex].avatarColor}`}
                     >
-                      {filteredReviews[activeReviewIndex].initials}
+                      <img
+                        src={filteredReviews[activeReviewIndex].initials}
+                      ></img>
                     </div>
                     <div>
                       <h4 className="text-lg font-bold text-white font-display uppercase tracking-tight">
