@@ -1075,7 +1075,7 @@ export default function App() {
               {/* ERRO 1 */}
               <div className="p-6 rounded-xl bg-black border border-zinc-850 hover:border-red-500/20 transition-all duration-300">
                 <span className="text-[10px] font-mono text-red-500 block mb-2 font-black uppercase tracking-widest">
-                  PITFALL 01 //
+                  ERRO 01 //
                 </span>
                 <h4 className="text-lg font-bold font-display text-white uppercase mb-3">
                   01. Não ter acompanhamento médico
@@ -1091,7 +1091,7 @@ export default function App() {
               {/* ERRO 2 */}
               <div className="p-6 rounded-xl bg-black border border-zinc-850 hover:border-red-500/20 transition-all duration-300">
                 <span className="text-[10px] font-mono text-red-500 block mb-2 font-black uppercase tracking-widest">
-                  PITFALL 02 //
+                  ERRO 02 //
                 </span>
                 <h4 className="text-lg font-bold font-display text-white uppercase mb-3">
                   02. Não ter orientação nutricional
@@ -1107,7 +1107,7 @@ export default function App() {
               {/* ERRO 3 */}
               <div className="p-6 rounded-xl bg-black border border-zinc-850 hover:border-red-500/20 transition-all duration-300">
                 <span className="text-[10px] font-mono text-red-500 block mb-2 font-black uppercase tracking-widest">
-                  PITFALL 03 //
+                  ERRO 03 //
                 </span>
                 <h4 className="text-lg font-bold font-display text-white uppercase mb-3">
                   03. Não ter auxílio nos treinos
@@ -1252,7 +1252,7 @@ export default function App() {
                       { id: "emagrecimento", label: "Emagrecimento" },
                       { id: "hipertrofia", label: "Hipertrofia" },
                       { id: "performance", label: "Performance" },
-                      { id: "saude", label: "Saúde & Longevidade" },
+                      { id: "saude", label: "Longevidade" },
                     ].map((item) => (
                       <button
                         key={item.id}
@@ -1309,7 +1309,8 @@ export default function App() {
                       <p className="text-zinc-400 font-sans">
                         <strong className="text-white font-display uppercase text-[10.5px]">
                           Estratégia Bioquímica Proposta:
-                        </strong>{" "}
+                        </strong>
+                        <br />
                         {calcResults.pillarGoalText}
                       </p>
                       <p className="text-[10.5px] text-zinc-500 font-mono">
