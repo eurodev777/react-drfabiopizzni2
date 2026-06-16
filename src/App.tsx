@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import {
   Activity,
   Award,
@@ -28,13 +28,13 @@ import {
   X,
 } from "lucide-react";
 import logo from "./assets/logo.png";
-import foto from "./assets/foto.webp";
+import foto from "./assets/foto.jpeg";
 import video from "./assets/vlc.mp4";
 
 // Paths of the pre-generated images
 import IMAGE_DR_FABIO from "./assets/images/dr_fabio_1781030015152.png";
 import IMAGE_ATHLETE from "./assets/images/athlete_performance_1781030034584.png";
-import IMAGE_CLINIC from "./assets/images/clinical_assessment_1781030051671.png";
+import IMAGE_CLINIC from "./assets/images/clinical_assessment_1781030051671.jpeg";
 
 // Interfaces and Constants
 interface Review {
@@ -165,6 +165,16 @@ export default function App() {
   // States for interactive Path view
   const [selectedPath, setSelectedPath] = useState<number>(2); // 1: Internet plans, 2: Personalizado
 
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(err => {
+        console.log("Autoplay bloqueado:", err);
+      });
+    }
+  }, []);
+
   // WhatsApp Link Config
   const WHATSAPP_NUMBER = "551533592190"; // Derived from (15) 3359-2190
   const WHATSAPP_PLAYLOAD = encodeURIComponent(
@@ -261,7 +271,7 @@ export default function App() {
         id="main-header"
         className="sticky top-0 z-40 bg-black/80 backdrop-blur-md border-b border-zinc-900"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-center lg:justify-between">
           {/* Brand/Logo */}
           <div className="flex items-center gap-3">
             <img src={logo} width={180} />
@@ -328,7 +338,7 @@ export default function App() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-zinc-400 hover:text-white"
+            className="md:hidden p-2 text-zinc-400 hover:text-white absolute right-8"
             aria-label="Abrir menu"
           >
             {mobileMenuOpen ? (
@@ -341,7 +351,7 @@ export default function App() {
 
         {/* Mobile Navigation Panel */}
         {mobileMenuOpen && (
-          <div className="md:hidden border-t border-zinc-900 bg-black/95 px-4 pt-4 pb-6 space-y-3 font-display">
+          <div className="md:hidden border-t border-zinc-900 bg-black/95 px-4 pt-4 pb-6 space-y-3 fonst-display mrs-8">
             <a
               href="#home"
               onClick={() => setMobileMenuOpen(false)}
@@ -515,10 +525,12 @@ export default function App() {
             <div className="lg:col-span-5 space-y-8 text-center lg:text-left">
               <div className="w-full">
                 <video
+                      ref={videoRef}
                   className="w-full h-auto rounded-lg"
                   controls
-                  autoPlay
+                  muted
                   playsInline
+                  autoPlay
                 >
                   <source src={video} type="video/mp4" />
                 </video>
@@ -939,7 +951,7 @@ export default function App() {
                       Bioimpedância Segmentada
                     </span>
                     <strong className="text-white text-xs block font-display tracking-wide uppercase">
-                      Mapeamento InBody
+                      Clínica Pizzini
                     </strong>
                   </div>
                 </div>
@@ -1231,7 +1243,7 @@ export default function App() {
                           : "bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:border-zinc-700"
                       }`}
                     >
-                      Intermediário
+                      Interme-diário
                       <span className="block text-[9px] lowercase font-normal text-zinc-400 mt-1">
                         3 a 5 dias / semana
                       </span>
