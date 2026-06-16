@@ -948,7 +948,7 @@ export default function App() {
                   <div className="w-3 h-3 rounded-full bg-brand animate-pulse"></div>
                   <div>
                     <span className="text-[10px] text-zinc-400 font-mono block">
-                      Bioimpedância Segmentada
+                      Agenda uma consulta
                     </span>
                     <strong className="text-white text-xs block font-display tracking-wide uppercase">
                       Clínica Pizzini
