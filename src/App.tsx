@@ -465,7 +465,8 @@ export default function App() {
                 <p className="text-zinc-400 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-sans">
                   A melhor opção em{" "}
                   <strong>
-                    EMAGRECIMENTO, REPOSIÇÃO HORMONAL E PERFORMANCE ESPORTIVA
+                    EMAGRECIMENTO, REPOSIÇÃO HORMONAL E PERFORMANCE
+                    ESPORTIVA{" "}
                   </strong>
                   de Sorocaba com foco absoluto em ciência, metabolismo e
                   resultados práticos e duradouros.
@@ -718,7 +719,7 @@ export default function App() {
                   {/* Absolute positioning name indicator */}
                   <div className="absolute bottom-6 left-6 right-6 bg-black/85 backdrop-blur-md p-4 rounded-xl border border-zinc-850">
                     <span className="text-[9px] text-brand font-mono font-bold tracking-widest uppercase block mb-1">
-                      MÉDICO DO ESPORTE & NUTRÓLOGO
+                      MÉDICO DO ESPORTE
                     </span>
                     <span className="text-lg font-black text-white font-display uppercase tracking-tight block">
                       FÁBIO PIZZINI
@@ -1083,6 +1084,76 @@ export default function App() {
           </div>
 
           {/* THE 3 ERROR BLOCKS IN DETAIL */}
+          {/* <div className="bg-zinc-950 border border-zinc-900/80 p-6 sm:p-8 rounded-2xl">
+            <h3 className="text-lg sm:text-xl font-black text-white font-display uppercase text-center mb-10 tracking-wider">
+              Veja abaixo os{" "}
+              <span className="text-brand">3 Erros Cruciais</span> que você
+              precisa evitar:
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="p-6 rounded-xl bg-black border border-zinc-850 hover:border-red-500/20 transition-all duration-300">
+                <span className="text-[10px] font-mono text-red-500 block mb-2 font-black uppercase tracking-widest">
+                  ERRO 01 //
+                </span>
+                <h4 className="text-lg font-bold font-display text-white uppercase mb-3">
+                  01. Não ter acompanhamento médico
+                </h4>
+                <p className="text-zinc-400 text-xs sm:text-sm leading-relaxed font-sans">
+                  Tentar ajustar a bioquímica e o metabolismo corporal por conta
+                  própria, ignorando exames hormonais importantes, marcadores
+                  inflamatórios e possíveis deficiências crônicas de
+                  micronutrientes essenciais.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-xl bg-black border border-zinc-850 hover:border-red-500/20 transition-all duration-300">
+                <span className="text-[10px] font-mono text-red-500 block mb-2 font-black uppercase tracking-widest">
+                  ERRO 02 //
+                </span>
+                <h4 className="text-lg font-bold font-display text-white uppercase mb-3">
+                  02. Não ter orientação nutricional
+                </h4>
+                <p className="text-zinc-405 text-xs sm:text-sm leading-relaxed font-sans">
+                  Seguir dietas restritivas extremas da internet sem a
+                  individualização biológica necessária para o seu nível de
+                  atividade diária, gerando indisposição e perda de massa
+                  muscular importante.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-xl bg-black border border-zinc-850 hover:border-red-500/20 transition-all duration-300">
+                <span className="text-[10px] font-mono text-red-500 block mb-2 font-black uppercase tracking-widest">
+                  ERRO 03 //
+                </span>
+                <h4 className="text-lg font-bold font-display text-white uppercase mb-3">
+                  03. Não ter auxílio nos treinos
+                </h4>
+                <p className="text-zinc-400 text-xs sm:text-sm leading-relaxed font-sans">
+                  Treinar sem periodização correta ou sem o direcionamento de
+                  intensidade ideal para estimular de fato a hipertrofia e
+                  ativar receptores metabólicos necessários para mobilizar
+                  gordura subcutânea.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 pt-8 border-t border-zinc-900/80 text-center max-w-2xl mx-auto space-y-3">
+              <strong className="text-white text-base font-display uppercase tracking-wider block">
+                Por mais simples que isso pareça, é exatamente onde a maioria
+                das pessoas erram!
+              </strong>
+              <p className="text-zinc-400 text-xs leading-relaxed font-sans">
+                Agora que você conhece esses bloqueios biológicos, não os
+                repetirá! O sucesso verdadeiro vem do perfeito alinhamento dos 3
+                pilares vitais:{" "}
+                <span className="text-brand font-bold">
+                  médico e nutricional
+                </span>
+                .
+              </p>
+            </div>
+          </div> */}
         </div>
       </section>
 
@@ -1546,7 +1617,7 @@ export default function App() {
           </p>
 
           <strong className="text-zinc-200 block text-sm sm:text-base uppercase tracking-widest font-display">
-            Acompanhamento Médico + Nutricional
+            Acompanhamento Médico
           </strong>
 
           {/* Glowing Green Central Button */}
