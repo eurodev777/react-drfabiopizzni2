@@ -464,11 +464,9 @@ export default function App() {
                 </h1>
                 <p className="text-zinc-400 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-sans">
                   A melhor opção em{" "}
-                  <strong className="text-white">emagrecimento</strong>,{" "}
-                  <strong className="text-white">nutrologia esportiva</strong> e{" "}
-                  <strong className="text-white">
-                    treinamento físico personalizado
-                  </strong>{" "}
+                  <strong>
+                    EMAGRECIMENTO, REPOSIÇÃO HORMONAL E PERFORMANCE ESPORTIVA
+                  </strong>
                   de Sorocaba com foco absoluto em ciência, metabolismo e
                   resultados práticos e duradouros.
                 </p>
@@ -644,10 +642,9 @@ export default function App() {
                   Saúde e Vitalidade
                 </h3>
                 <p className="text-zinc-400 text-xs sm:text-sm leading-relaxed font-sans">
-                  Se o seu objetivo é simplesmente uma alimentação equilibrada e
-                  saudável, visando saúde e qualidade de vida, daremos todas as
-                  informações necessárias para que tenha sucesso nessa mudança
-                  de forma sustentada.
+                  Se o seu objetivo é simplesmente saúde e qualidade de vida,
+                  daremos todas as informações necessárias para que tenha
+                  sucesso nessa mudança de forma sustentada.
                 </p>
               </div>
               <div className="mt-6 pt-6 border-t border-zinc-900/80 flex items-center justify-between">
@@ -670,9 +667,9 @@ export default function App() {
                   CONSULTA INTEGRADA & PARAMENTOS REAIS
                 </h4>
                 <p className="text-zinc-450 text-xs sm:text-sm mt-0.5 max-w-2xl font-sans">
-                  Nosso acompanhamento conta com anamnese médica completa,
-                  acompanhamento hormonal e mapeamento estético para
-                  direcionamento de bioimpedância de alta definição.
+                  Nosso acompanhamento conta com anamnese médica, avaliação
+                  hormonal e mapeamento corporal com bioimpedância de alta
+                  definição.
                 </p>
               </div>
             </div>
@@ -1066,11 +1063,10 @@ export default function App() {
                     <p className="text-zinc-300 text-xs sm:text-sm leading-relaxed font-sans">
                       O caminho para o sucesso é construído com base em exames
                       clínicos, orientação médica profissional rigorosa,
-                      adequação de micronutrientes, correção hormonal e um
-                      roteiro de treinos personalizado feito pelas mentes mais
-                      competentes do esporte. O resultado natural é o ganho de
-                      massa magra, redução da gordura visceral e melhora
-                      acentuada do estilo de vida metabólico.
+                      adequação de micronutrientes correção hormonal. O
+                      resultado natural é o ganho de massa magra, redução da
+                      gordura visceral e melhora acentuada do estilo de vida
+                      metabólico.
                     </p>
                     <div className="p-3 bg-brand/5 border border-brand/10 rounded-xl text-xs text-zinc-300 font-sans flex items-center gap-2">
                       <CheckCircle className="w-5 h-5 text-brand shrink-0" />
@@ -1155,7 +1151,7 @@ export default function App() {
                 repetirá! O sucesso verdadeiro vem do perfeito alinhamento dos 3
                 pilares vitais:{" "}
                 <span className="text-brand font-bold">
-                  médico, nutricional e de treinamento direcionado
+                  médico e nutricional
                 </span>
                 .
               </p>
@@ -1624,7 +1620,7 @@ export default function App() {
           </p>
 
           <strong className="text-zinc-200 block text-sm sm:text-base uppercase tracking-widest font-display">
-            Acompanhamento Médico + Nutricional + Treinamento Sincronizado
+            Acompanhamento Médico + Nutricional
           </strong>
 
           {/* Glowing Green Central Button */}
